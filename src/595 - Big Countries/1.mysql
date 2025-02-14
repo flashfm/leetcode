@@ -1,0 +1,10 @@
+// Copyright (c) 2024 Alexey Filatov
+// 595 - Big Countries (https://leetcode.com/problems/big-countries)
+// Date solved: 10/31/2024 4:28:01 AM +00:00
+// Memory: 0B
+// Runtime: 328 ms
+
+
+# Write your MySQL query statement below
+select name, population, area from World
+where area>=3000000 or population>=25000000
